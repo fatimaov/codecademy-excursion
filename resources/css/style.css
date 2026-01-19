@@ -28,11 +28,12 @@ body {
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
 }
 
 header {
     text-align: center;
-    padding: 5%;
+    margin: 50px 0;
 }
 
 h1 {
@@ -44,7 +45,10 @@ a {
     display: block;
     color: turquoise;
     text-decoration: underline;
-}video {
+    margin: 50px 0;
+}
+
+video {
     display: block;
     margin: 50px auto;
 }
