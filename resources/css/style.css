@@ -40,10 +40,47 @@ h1 {
     margin: 50px 0;
 }
 
-header a {
+a {
+    display: block;
     color: turquoise;
     text-decoration: underline;
 }video {
     display: block;
     margin: 50px auto;
 }
+
+main {
+    text-align: center;
+}
+
+section {
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 50px 0;
+}
+
+p {
+    color: grey;
+    font-size: 1.2rem;
+    margin: 50px 0;
+}
+
+.camp-img {
+    width: 80%;
+    background-color: red;
+    margin: 50px auto;
+}
+
+.camp-img > img {
+    width: 100%;
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+}
+
