@@ -84,3 +84,8 @@ img {
     margin: 50px auto;
 }
 
+.footer-p {
+    margin-bottom: 0;
+    text-align: right;
+}
+
