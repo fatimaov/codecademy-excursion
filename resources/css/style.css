@@ -1,0 +1,46 @@
+/* Basic reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hard reset: everything inside body */
+body * {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;     /* safer than fixed pt → scales with user settings */
+  font-weight: 400;
+  line-height: 1.2;    /* unitless, not cramped */
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 50px 0;
+}
+
+header a {
+    color: turquoise;
+    text-decoration: underline;
+}
