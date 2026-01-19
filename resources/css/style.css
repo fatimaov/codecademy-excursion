@@ -43,4 +43,7 @@ h1 {
 header a {
     color: turquoise;
     text-decoration: underline;
+}video {
+    display: block;
+    margin: 50px auto;
 }
